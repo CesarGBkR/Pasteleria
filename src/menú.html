@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+</head>
+<body>
+    <h1>Bienvenido al meú</h1>
+    <table><caption><h2>Sabores</h2></caption>
+        <thead>
+        <tr>
+            <th></th>
+            <th>Sabor</th>
+            <th></th>
+            <th colspan="2">Precio</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" id="redV" name="redV" value="redV"></td>
+                <td>Red Velvet</td>
+                <td>...........</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="chocolate" name="chocolate" value="chocolate"></td>
+                <td>Chocolate</td>
+                <td>...........</td>
+                <td>$200</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="fresa" name="fresa" value="fresa"></td>
+                <td>Fresa</td>
+                <td>...........</td>
+                <td>$250</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="ferrero" name="ferrero" value="ferrero"></td>
+                <td>Ferrero</td>
+                <td>...........</td>
+                <td>$400</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="leches" name="leches" value="leches"></td>
+                <td>Tres leches</td>
+                <td>...........</td>
+                <td>$300</td>
+            </tr>
+        </tbody>
+    
+
+    </table>
+    <table><caption><h2>Adornos</h2></caption>
+        <thead>
+        <tr>
+            <th></th>
+            <th>Adorno</th>
+            <th></th>
+            <th colspan="2">Precio</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" id="velaR" name="vela regular" value="velaR"></td>
+                <td>vela regular</td>
+                <td>...........</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="velaC" name="vela con chispa" value="velaC"></td>
+                <td>vela con chispa</td>
+                <td>...........</td>
+                <td>$200</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="mariposas" name="mariposas comestibles" value="mariposas"></td>
+                <td>mariposas comestibles</td>
+                <td>...........</td>
+                <td>$250</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="caja" name="Caja con forma de regalo" value="caja"></td>
+                <td>Caja con forma de regalo</td>
+                <td>...........</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="laminaC" name="nombre en lamina de chocolate" value="laminaC"></td>
+                <td>nombre en lamina de chocolate</td>
+                <td>...........</td>
+                <td>$400</td>
+            </tr>
+        </tbody>
+    
+    </table>
+
+    <footer><input type="button" id="pedido" name="pedido" value="Hacer pedido" onclick="send(checks);"><br><br></footer>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+Estructura caso Pastelería
+
+------Pagina Cliente--------
+
+Menú sabores con precios
+Menú adornos con precios
+Posibilidad de combinar sabores
+Posibilidad de combinar adornos
+
+Formulario de pedido
+El formulario debe de tener sus datos de contacto
+Nombre
+Teléfono
+Correo
+Descripción general del pastel 
+Selección de sabores
+
+-------Pagina Pastelero--------
+
+Información a conocer para el pastelero
+Cantidad de Sabores que quedan
+Cantidad de adornos que quedan
+Tavla de pedidos con los datos del formulario
+Información de pastelería, Dirección, Teléfono y horarios de atención
